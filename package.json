@@ -1,0 +1,14 @@
+{
+  "name": "glassworm-poc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Educational POC demonstrating Glassworm Unicode obfuscation attack and detection",
+  "scripts": {
+    "encode": "node attack/glassworm-encoder.js",
+    "decode": "node attack/glassworm-runner.js attack/payload-demo.js",
+    "scan": "node detector/glassworm-detector-cli.js scan",
+    "scan:json": "node detector/glassworm-detector-cli.js scan --format json",
+    "test": "node test/test-detection.js"
+  },
+  "license": "MIT"
+}

